@@ -197,6 +197,14 @@
       height: 100%;
       width: 50%;
       border-radius: 2rem;
+
+      .score {
+        width: 12rem;
+        height: 12rem;
+        span {
+          font-size: 5rem;
+        }
+      }
     }
     .white {
       height: 100%;

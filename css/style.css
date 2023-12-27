@@ -198,6 +198,13 @@
     width: 50%;
     border-radius: 2rem;
   }
+  .container .purple .score {
+    width: 12rem;
+    height: 12rem;
+  }
+  .container .purple .score span {
+    font-size: 5rem;
+  }
   .container .white {
     height: 100%;
     width: 50%;
