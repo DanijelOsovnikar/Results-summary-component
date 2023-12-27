@@ -80,6 +80,7 @@
       width: 100%;
       border-radius: 3rem;
       border: none;
+      margin-bottom: 2rem;
     }
   }
 }
@@ -176,6 +177,7 @@
     }
   }
 }
+
 @media screen and (min-width: 1024px) {
   body {
     background-color: $paleBlue;
@@ -186,19 +188,34 @@
     align-items: center;
   }
   .container {
-    width: 70%;
-    height: 50%;
+    width: 60%;
+    height: 70%;
     background-color: $white;
     border-radius: 2rem;
     flex-direction: row;
     .purple {
       height: 100%;
       width: 50%;
+      border-radius: 2rem;
     }
     .white {
       height: 100%;
       width: 50%;
       margin: unset;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      border-radius: 2rem;
+      h1 {
+        width: 90%;
+      }
+      .cards {
+        width: 90%;
+      }
+      button {
+        width: 90%;
+      }
     }
   }
 }
