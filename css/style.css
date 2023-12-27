@@ -7,4 +7,200 @@
   font-size: 18px;
 }
 
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .purple {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 0 0 2rem 2rem;
+}
+.container .purple h2 {
+  color: hsl(241, 100%, 89%);
+  font-weight: 500;
+  margin: 1rem;
+}
+.container .purple .score {
+  background: linear-gradient(hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
+  color: hsl(241, 100%, 89%);
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .purple .score span {
+  font-size: 3rem;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+.container .purple .biggerH2 {
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.5rem;
+}
+.container .purple p {
+  text-align: center;
+  color: hsl(241, 100%, 89%);
+  width: 60%;
+  margin-bottom: 2rem;
+}
+.container .white {
+  width: 80%;
+  margin-bottom: 3rem;
+  background-color: hsl(0, 0%, 100%);
+}
+.container .white h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: hsl(224, 30%, 27%);
+  margin: 1rem 1rem 1rem 0;
+}
+.container .white .cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.container .white button {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(224, 30%, 27%);
+  padding: 1rem;
+  width: 100%;
+  border-radius: 3rem;
+  border: none;
+}
+
+.reaction {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsla(0, 100%, 67%, 0.1);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 0 0 1rem 0;
+}
+.reaction .wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.reaction .wrapper h3 {
+  color: hsl(0, 100%, 67%);
+  margin-left: 0.5rem;
+}
+.reaction p {
+  color: rgb(152, 152, 169);
+}
+.reaction p span {
+  font-weight: 700;
+  color: hsl(224, 30%, 27%);
+}
+
+.memory {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsla(39, 100%, 56%, 0.1);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 0 0 1rem 0;
+}
+.memory .wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.memory .wrapper h3 {
+  color: hsl(39, 100%, 56%);
+  margin-left: 0.5rem;
+}
+.memory p {
+  color: rgb(152, 152, 169);
+}
+.memory p span {
+  font-weight: 700;
+  color: hsl(224, 30%, 27%);
+}
+
+.verbal {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsla(166, 100%, 37%, 0.1);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 0 0 1rem 0;
+}
+.verbal .wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.verbal .wrapper h3 {
+  color: hsl(166, 100%, 37%);
+  margin-left: 0.5rem;
+}
+.verbal p {
+  color: rgb(152, 152, 169);
+}
+.verbal p span {
+  font-weight: 700;
+  color: hsl(224, 30%, 27%);
+}
+
+.visual {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsla(234, 85%, 45%, 0.1);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 0 0 1rem 0;
+}
+.visual .wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.visual .wrapper h3 {
+  color: hsl(234, 85%, 45%);
+  margin-left: 0.5rem;
+}
+.visual p {
+  color: rgb(152, 152, 169);
+}
+.visual p span {
+  font-weight: 700;
+  color: hsl(224, 30%, 27%);
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: hsl(221, 100%, 96%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    width: 70%;
+    height: 50%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 2rem;
+    flex-direction: row;
+  }
+  .container .purple {
+    height: 100%;
+    width: 50%;
+  }
+  .container .white {
+    height: 100%;
+    width: 50%;
+    margin: unset;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
